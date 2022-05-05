@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "..\\.."
+		},
+		{
+			"path": "..\\..\\..\\Unit-3"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Clone-Myntra-Project"
+	}
+}
