@@ -146,3 +146,30 @@
     width: 658px;
     height:201px ;
 }
+
+#spring_summer
+{
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(8,1fr);
+    grid-template-rows: auto; 
+    line-height: 0px;   
+}
+#spring_summer>div>img
+{
+ width:168px ;
+ height:216px ;
+}
+#stylecast_hottest_finds
+{
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    grid-template-rows: auto; 
+    line-height: 0px; 
+}
+#stylecast_hottest_finds>div>img
+{
+  width:192px ;
+  height: 246px;
+}
