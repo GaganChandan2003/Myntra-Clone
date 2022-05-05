@@ -1,83 +1,148 @@
-#ad1
+#append_ad
 {
-    display: grid;
-    grid-template-columns: repeat(4,1fr);
-    grid-template-rows: auto;
-    margin-top: 20px;
+    margin-top: 30px;
+    width: 1299px;
+    height: 341px;
 }
-#ad1>div
+#extra_gap
 {
- width: 340px;
- height: 130px;
+    display: flex;
+    width: 100%;
+    height: 70px;
+    /* position: fixed; */
+    /* margin-top: -9px; */
+    /* background-color: #fff; */
+    /* box-shadow: 0 4px 12px 0 rgb(0 0 0 / 5%); */
+    align-items: center;
+}
+.heading_top
+{
+    text-transform: uppercase;
+    color: #3e4152;
+    letter-spacing: .15em;
+    font-size: 1.8em;
+    margin: 50px 0 10px 30px;
+    max-height: 5em;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+}
 
-}
-#ad1>div>img
-{
- width: 100%;
- height: 100%;
-
-}
-#ad2
-{
- margin: auto;
- display: flex;
- justify-content: center;
- margin-top: 30px;
- margin-left: 20px;
-}
-#append_ad1
-{
-    width: 1296px;
-    height: 203px;
-}
-#assets>img
-{
-    width: 1316px;
-    height: 120px;
-    margin-top: 20px;
-}
-#assets_no1
+#deals1
 {
     display: grid;
-    grid-template-columns: repeat(6,1fr);
+    grid-template-columns: repeat(10,1fr);
     grid-template-rows: auto;
+    margin-top: 40px;
 }
-#assets_no1>div>img{
-    width: 223px;
-    height: 288px;
+#deals1>div>img{
+    width: 134px;
+    height: 198px;
 }
-#budget>img{
-    width: 1316px;
-    height: 103px;
-}
-#budget_buys
+#brands1
 {
+    margin-top: 40px;
     display: grid;
-    grid-template-columns: repeat(6,1fr);
+    grid-template-columns: repeat(8,1fr);
     grid-template-rows: auto;
 }
-#budget_buys>div>img{
-    width: 219px;
-    height: 264px;
+#brands1>div>img{
+    width: 160px;
+    height: 209px;
 }
-#brands>img
+#top_picks1
 {
-    width: 1316px;
-    height: 103px;
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(8,1fr);
+    grid-template-rows: auto; 
 }
-#brands_that_top
+#top_picks1>div>img{
+    width: 188px;
+    height: 230px;
+}
+#categories_of_bag
 {
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(8,1fr);
+    grid-template-rows: auto; 
+    line-height: 0px;
+}
+#categories_of_bag>div>img
+{
+  width: 170px;
+  height: 204px;
+}
+#deals_of_top_brands
+{
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(8,1fr);
+    grid-template-rows: auto; 
+    line-height: 0px;
+}
+#deals_of_top_brands>div>img{
+    width: 168px;
+    height: 268px;
+}
+#branda_at_slashed_prices
+{
+    margin-top: 40px;
     display: grid;
     grid-template-columns: repeat(7,1fr);
-    grid-template-rows: auto;
+    grid-template-rows: auto; 
+    line-height: 0px; 
 }
-#brands_that_top>div>img
+#branda_at_slashed_prices>div>img
 {
-   width: 192px;
-   height: 246px;
+    width: 194px;
+    height: 219px;
 }
-#shop_by_category>img
+#top_picks
 {
-    width: 1340px;
-    height: 69px;
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(8,1fr);
+    grid-template-rows: auto; 
+    line-height: 0px;
+}
+#top_picks>div>img{
+    width:165px ;
+    height:202px ;
+}
+#myntra_luxe
+{
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(8,1fr);
+    grid-template-rows: auto; 
+    line-height: 0px;  
+}
+#myntra_luxe>div>img{
+    width:167px ;
+    height: 216px;
+}
+#gifting_cards
+{
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: auto; 
+    line-height: 0px;  
+}
+#gifting_cards>div>img{
+    width: 267px;
+    height: 231px;
+}
+#deals_of_latest_arrivals
+{
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: auto; 
+    line-height: 0px;   
+}
+#deals_of_latest_arrivals>div>img{
+    width: 658px;
+    height:201px ;
 }
