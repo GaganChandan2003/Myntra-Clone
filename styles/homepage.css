@@ -70,7 +70,7 @@
 }
 #categories_of_bag>div>img
 {
-  width: 170px;
+  width: 168px;
   height: 204px;
 }
 #deals_of_top_brands
@@ -95,7 +95,7 @@
 }
 #branda_at_slashed_prices>div>img
 {
-    width: 194px;
+    width: 190px;
     height: 219px;
 }
 #top_picks
@@ -172,4 +172,181 @@
 {
   width:192px ;
   height: 246px;
+}
+#trends_for_her
+{
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(8,1fr);
+    grid-template-rows: auto; 
+    line-height: 0px; 
+}
+#trends_for_her>div>img
+{
+    width:168px ;
+ height:216px ; 
+}
+
+#trends_for_him
+{
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(8,1fr);
+    grid-template-rows: auto; 
+    line-height: 0px;  
+}
+
+#trends_for_him>div>img
+{
+    width:168px ;
+    height:216px ; 
+}
+
+#best_for_kidswear
+{
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    grid-template-rows: auto; 
+    line-height: 0px;  
+}
+#best_for_kidswear>div>img
+{
+    width:192px ;
+    height:246px ;
+
+}
+#new_in_top_brands
+{
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(8,1fr);
+    grid-template-rows: auto; 
+    line-height: 0px;  
+}
+
+#new_in_top_brands>div>img
+{
+    width: 169px;
+    height: 219px;
+}
+
+#spring_season_summer_checklist
+{
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(8,1fr);
+    grid-template-rows: auto; 
+    line-height: 0px;  
+}
+
+#spring_season_summer_checklist>div>img
+{
+    width:168px ;
+    height:216px ;
+}
+
+#newness_for_every_occasion
+{
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: auto; 
+    line-height: 0px;    
+}
+
+#newness_for_every_occasion>div>img
+{
+    width:337px ;
+    height:241px ;
+}
+
+#latest_in_beauty_and_gromming
+{
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: auto; 
+    line-height: 0px;  
+}
+
+#latest_in_beauty_and_gromming>div>img
+{
+    width:337px ;
+    height:241px ;
+}
+
+#unmissable_this_season
+{
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(8,1fr);
+    grid-template-rows: auto; 
+    line-height: 0px;  
+}
+
+#unmissable_this_season>div>img
+{
+    width:168px ;
+    height:216px ;
+}
+
+#colours_of_the_season
+{
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: auto; 
+    line-height: 0px; 
+}
+
+#colours_of_the_season>div>img
+{
+    width:337px ;
+    height:241px ;
+}
+
+#top_influencers_exclusive_styles
+{
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    grid-template-rows: auto; 
+    line-height: 0px; 
+}
+
+#top_influencers_exclusive_styles>div>img
+{
+    width: 225px ;
+    height:161px ;
+}
+
+#budget_picks_influencers_love
+{
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(8,1fr);
+    grid-template-rows: auto; 
+    line-height: 0px;   
+}
+
+#budget_picks_influencers_love>div>img
+{
+    width:168px ;
+    height:216px ;
+}
+
+#trending_outfits_by_influencers
+{
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(8,1fr);
+    grid-template-rows: auto; 
+    line-height: 0px; 
+}
+
+#trending_outfits_by_influencers>div>img
+{
+    width:168px ;
+    height:216px ; 
 }
