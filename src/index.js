@@ -12,7 +12,7 @@ let i=0;
 let append=document.getElementById("append_ad");
 function ad()
 {
-   
+     append.src=ads[0].img;
     setInterval(function(){
         if(i==ads.length)
         {
@@ -25,3 +25,6 @@ function ad()
 }
 
 ad();
+
+import footer  from "../components/footer.js";
+document.getElementById("container").innerHTML = footer();

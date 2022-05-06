@@ -4,8 +4,8 @@ let navbar=()=>
     <div id="navbar">
     <div id="logo"></div>
     <div id="catagery">
-        <div><h3><a href="" class="a">MENS</a></h3></div>
-        <div><h3><a href="" class="a">WOMENS</a></h3></div>
+        <div><h3><a href="mens.html" class="a">MENS</a></h3></div>
+        <div><h3><a href="womens.html" class="a">WOMENS</a></h3></div>
         <div><h3><a href="" class="a">KIDS</a></h3></div>
         <div><h3><a href="" class="a">HOME & LIVING</a></h3></div>
         <div><h3><a href="" class="a">BEAUTY</a></h3></div>
