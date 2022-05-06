@@ -26,7 +26,7 @@ let navbar=()=>
         </div>
         <div>
             <i class="fa-solid fa-bag-shopping"></i>
-            <p> <a href="" class="a">Bag</a> </p>
+            <p> <a href="./Cart Part/cart.html" class="a">Bag</a> </p>
         </div>
     </div>
     </div>`
