@@ -6,7 +6,7 @@ let navbar=()=>
     <div id="catagery">
         <div><h3><a href="mens.html" class="a">MENS</a></h3></div>
         <div><h3><a href="womens.html" class="a">WOMENS</a></h3></div>
-        <div><h3><a href="" class="a">KIDS</a></h3></div>
+        <div><h3><a href="kids.html" class="a">KIDS</a></h3></div>
         <div><h3><a href="" class="a">HOME & LIVING</a></h3></div>
         <div><h3><a href="" class="a">BEAUTY</a></h3></div>
         <div><h3><a href="" class="a">STUDIO</a></h3></div>
@@ -16,20 +16,30 @@ let navbar=()=>
        <input type="text" name="search" id="search" placeholder="Search for products , brand and more ">
    </div>
     <div id="profile">
-        <div>
-            <i class="fa-solid fa-user"></i>
-            <p> <a href="" class="a">Profile</a> </p>
-        </div>
-        <div>
-            <i class="fa-solid fa-heart"></i>
-            <p> <a href=""class="a">Wishlist</a> </p>
-        </div>
-        <div>
-            <i class="fa-solid fa-bag-shopping"></i>
-            <p> <a href="./Cart Part/cart.html" class="a">Bag</a> </p>
-        </div>
+        <a href="login.html" class="a">
+            <div>
+                <i class="fa-solid fa-user"></i>
+                <p> Profile</p>
+            </div>
+        </a>
+        
+        <a href=""class="a">
+            <div>
+                <i class="fa-solid fa-heart"></i>
+                <p> Wishlist </p>
+            </div>
+        </a>
+        <a href="./Cart Part/cart.html" class="a">
+            <div>
+                <i class="fa-solid fa-bag-shopping"></i>
+                <p> Bag </p>
+            </div>
+        </a>
     </div>
-    </div>`
+    </div>
+    
+</div> 
+    `
 }
 
 
