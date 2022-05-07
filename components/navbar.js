@@ -2,7 +2,7 @@ let navbar=()=>
 {
     return `
     <div id="navbar">
-    <div id="logo"></div>
+    <div id="logo"><a href="index.html"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUrnmr3CB1oDs0WqiWPzNxENXCnRE-1yKVKw&usqp=CAU" alt=""></a></div>
     <div id="catagery">
         <div><h3><a href="mens.html" class="a">MENS</a></h3></div>
         <div><h3><a href="womens.html" class="a">WOMENS</a></h3></div>
