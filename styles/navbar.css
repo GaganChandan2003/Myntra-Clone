@@ -9,6 +9,10 @@
     box-shadow: 0 4px 12px 0 rgb(0 0 0 / 5%);
     align-items: center;
 }
+
+
+
+
 #extra_gap
 {
     width: 100%;
@@ -79,7 +83,7 @@
     gap: 30px;
     margin-left: 70px;
 }
-#profile>div
+.a>div
 {
     text-align: center;
     display: flex;
@@ -90,6 +94,14 @@
     margin-top: 15px;
     line-height: 2px;
 }
+.profile_a
+{
+    text-decoration: none;
+    color: rgb(75, 75, 75);
+}
+
+
 i+p{
     font-size: small;
 }
+
