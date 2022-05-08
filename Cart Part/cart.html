@@ -90,18 +90,24 @@
             margin: auto;
             margin-top: 10px;
             display: flex;
-            gap: 70px;
+            gap: 10px;
         }
         #forth{
             width: 95%;
-            height: 190px;
+            height: 400px;
             box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
             margin: auto;
             margin-top: 10px;
+            display: grid;
+            grid-template-rows: auto;
+            grid-template-columns: 100px 100px 100px;
+            column-gap: 60px;
+            row-gap: 15px;
+            overflow: scroll;
         }
         #fifth{
             width: 95%;
-            height: 60px;
+            height: 30px;
             box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
             margin: auto;
             margin-top: 10px;
@@ -180,7 +186,7 @@
         }
         #third>div{
             display: flex;
-            gap: 5px;
+            gap: 6px;
         }
         #third>div>p{
             margin-top: 15px;
@@ -188,14 +194,20 @@
         #third>div>button~button{
             width: 145px;
             height: 25px;
+            border: 1px solid grey;
+            background-color: rgb(5, 186, 192);
+            border-radius: 10px;
+            font-size: 16px;
+        }
+        #botti{
             border: none;
-            background-color: white;
+            background-color: aqua;
+            border-radius: 10px;
+            overflow: hidden;
         }
         #third>div>button{
             width: 60px;
             height: 25px;
-            border: none;
-            background-color: white;
             margin-top: 15px;
         }
         #third>div>div{
@@ -203,7 +215,6 @@
             height: 30px;
             background-color:  grey;
             margin-top: 15px;
-            margin-left: 10px;
 
         }
         #fifth>div{
@@ -302,6 +313,65 @@
       margin-top: 4px;
       font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   }
+  #round{
+      display: flex;
+      gap: 20px;
+  }
+  #round>div{
+      width: 50px;
+      height: 30px;
+      border: 1px solid rgb(172, 163, 163);
+      border-radius: 15px ;
+      align-items: center;
+      display: flex;
+      justify-content: center;
+      color: rgb(94, 81, 81);
+      font-size: 20px;
+
+  }
+  #eightth>a{
+      color: rgb(218, 44, 44);
+      margin-left: 10px;
+  }
+  #place{
+      width: 350px;
+      height: 120px;
+      box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+      margin: auto;
+      margin-top: 20px;
+  }
+  #place>p{
+      color: grey;
+  }
+  #place>div{
+      display: flex;
+      justify-content: space-between;
+  }
+  #place>div>button{
+      width: 80px;
+      height: 25px;
+      color: rgb(241, 36, 36);
+      border: 1px solid grey;
+      background-color: aliceblue;
+      margin-top: -3px;
+      border-radius: 15px;
+  }
+  #place>div>h4{
+      margin-top: -1px;
+      color: grey;
+  }
+  #place>p>a{
+      color: rgb(223, 27, 27);
+  }
+  #other{
+     font-size: 26px;
+     letter-spacing: 9px;
+     border-radius: 5px;
+     border: none;
+     background-color: rgb(201, 40, 40);
+     color: white;
+  }
+
     </style>
 </head>
 <body>
@@ -338,23 +408,23 @@
                    <div id="third">
                          <div>
                              <input type="checkbox" name="" id="">
-                             <p>0/0 ITEMS SELECTED</p>
+                             <p id="result"></p>
                          </div>
                          
                          <div>
-                             <button>REMOVE  </button>
+                             <button id="botti"> </button>
                              <div></div>
-                             <button>MOVE TO WISHLIST</button>
+                             <button > <a href="/Myntra-Clone/tshirts.html">Add More Items</a> </button>
                          </div>
                    </div>
                    <div id="forth">
-
+                  
                    </div>
-                   <div id="fifth">
+                   <!-- <div id="fifth">
                            <div>
                                <p>Add More From Wishlist</p>
                            </div>
-                   </div>
+                   </div> -->
             </div>
             <div id="cont2">
                     <div id="sixth">
@@ -365,7 +435,25 @@
                             <p>Help India Fight COVID-19</p>
                     </div>
                    <div id="eightth">
-
+                            <div id="round">
+                                <div>₹50</div>
+                                <div>₹100</div>
+                                <div>₹150</div>
+                                <div>₹200</div>
+                            </div>
+                            <a href="">Know More</a>
+                            <div id="place">
+                                <p>COUPONS</p>
+                               <div>
+                                   <h4>Apply Coupons</h4>
+                                   <button>APPLY</button>
+                               </div>
+                               <p><a href="">Login</a> to see best coupons for you</p>
+                            </div>
+                            <div id="end">
+                                   
+                            </div>
+                            <a href="login.html"><button id="other"></button></a>
                    </div>
             </div>
     </div>
@@ -511,3 +599,4 @@
     
 </body>
 </html>
+<script src="/Myntra-Clone/src/cart.js" type="module"></script>
