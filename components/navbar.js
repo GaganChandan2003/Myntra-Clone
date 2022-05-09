@@ -216,7 +216,7 @@ let navbar=()=>
 
         </div>
         <div class="man1">
-        <h3><a href="" class="a">KIDS</a></h3>
+        <h3><a href="kids.html" class="a">KIDS</a></h3>
         <ul class="manul">
         
         <li>

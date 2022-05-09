@@ -123,11 +123,15 @@ box5.append(p8,p9);
 box5.style.display = "flex";
 box5.style.justifyContent = "space-between";
 box5.style.marginTop = "-9px";
-var btn1 = document.querySelector("#other");
-btn1.innerText = "PLACE ORDER";
+var btn1 = document.querySelector("#other")
+// function changepathtologin()
+
+// btn1.innerText = "PLACE ORDER";
 btn1.style.width = "360px";
 btn1.style.height = "50px";
 btn1.style.cursor = "pointer";
+
+
 
 
 document.querySelector("#end").append(detail,box1,box2,box3,box4,box5,btn1);
